@@ -1,0 +1,5 @@
+env/
+env-lab*/
+figs/
+.ipynb_checkpoints/
+*.tar.gz
