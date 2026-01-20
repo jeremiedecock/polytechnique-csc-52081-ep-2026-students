@@ -1,0 +1,26 @@
+# This file lists all the dependencies that are required to run CSC-52081-EP Lab3
+
+# To have more information about the format of this file, please refer to the
+# https://pip.pypa.io/en/stable/reference/requirements-file-format/
+
+
+# GYMNASIUM ###################################################################
+
+# C.f. https://github.com/Farama-Foundation/Gymnasium/blob/main/pyproject.toml
+
+gymnasium[toy-text]~=1.2.3    # "Toy text" environments only ("FrozenLake-v1")
+moviepy~=2.2.1                # Required by "gym.wrappers.RecordVideo"
+
+
+# REQUIRED DEPENDENCIES #######################################################
+
+# The following dependencies are already installed in Google Colab:
+
+# ipywidgets          # Required for tqdm
+# jupyterlab
+# matplotlib
+# numpy
+# pandas
+# pygame
+# seaborn
+# tqdm
