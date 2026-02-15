@@ -37,6 +37,7 @@ tqdm~=4.67.1
 
 # OPTIONAL DEPENDENCIES #######################################################
 
+# ray[default]
 # aim
 # optuna
 # optuna-dashboard
